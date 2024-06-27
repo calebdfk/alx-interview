@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""pascal's triangle"""
+'''pascal's triangle'''
 
 def pascal_triangle(n):
-    """Generate Pascal's Triangle up to the n-th row."""
+    '''Generate Pascal's Triangle up to the n-th row.'''
     if n <= 0:
         return []
 
